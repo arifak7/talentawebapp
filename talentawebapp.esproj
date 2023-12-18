@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.83-alpha">
+  <PropertyGroup>
+    <StartupCommand>set BROWSER=none&amp;&amp;npm start</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Command to run on project build -->
+    <BuildCommand>
+    </BuildCommand>
+    <!-- Command to create an optimized build of the project that's ready for publishing -->
+    <ProductionBuildCommand>npm run build</ProductionBuildCommand>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\build</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\components\MenuItem\" />
+    <Folder Include="src\pages\FormRequest\FormTable\" />
+    <Folder Include="src\pages\FormRequest\FormID\" />
+    <Folder Include="src\components\Sidebar\" />
+    <Folder Include="src\pages\FormList\" />
+    <Folder Include="src\pages\Attendance\" />
+    <Folder Include="src\pages\FormRequest\FormInfo\" />
+    <Folder Include="src\pages\FormRequest\FormUser\" />
+    <Folder Include="src\pages\FormRequest\TableInput\" />
+    <Folder Include="src\pages\Manager\" />
+    <Folder Include="src\pages\FormDetail\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\oldApp.js" />
+  </ItemGroup>
+</Project>

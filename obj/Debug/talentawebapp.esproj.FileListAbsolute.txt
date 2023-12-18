@@ -1,0 +1,2 @@
+C:\Users\jacob\source\repos\TalentaWebApp\obj\Debug\talentawebapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\jacob\source\repos\TalentaWebApp\obj\Debug\talentawebapp.esproj.CoreCompileInputs.cache

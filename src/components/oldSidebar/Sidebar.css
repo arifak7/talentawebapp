@@ -1,0 +1,80 @@
+.container-fluid {
+    position: relative;
+}
+.sidebar-color {
+    background-color: #2A2A2A;
+    color: black !important;
+}
+.toggle-btn-closed {
+    margin-top: 15px !important;
+    margin-left: 20px !important;
+    z-index: 9999;  
+    transition: 0.3s ease;
+}
+.toggle-btn-open {
+    margin-top: 15px !important;
+    margin-left: 170px !important;
+    z-index: 9999;
+    transition: 0.3s ease;
+}
+.menu-title-open {
+    top: 10px;
+    left: 30px;
+    position: absolute;
+    transition: 0.3s ease;
+}
+.menu-title-closed {
+    position: absolute;
+    top:10px;
+    left: -76px;
+    transition: 0.3s ease;
+}
+.sidebar-show {
+    position: absolute;
+    left: 20px;
+    transition: left 0.3s ease;
+}
+.sidebar{
+    min-height: 100vh;
+}
+.sidebar-hide {
+    position: absolute;
+    left: -162px;
+    width: !important;
+    transition: left 0.3s ease;
+}
+.navbar-items{
+    margin: 100px 10px 20px 10px;
+}
+.icon-btn{
+    left:0px;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;    
+}
+
+.menu-title{
+    font-size: 25px;
+    color: white;
+}
+.navbar-btn {
+    margin-bottom: 10px;
+    transition: display 0.3s;
+    color: white;
+    margin : 20px;
+    font-size: 15px;
+}
+.title {
+    color: white;
+}
+
+.sidebar-open {
+    width: 250px !important;
+    transition: width 0.3s ease;
+}
+
+.sidebar-closed {
+    width: 85px !important;
+    transition: width 0.3s ease;
+}

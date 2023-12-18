@@ -1,0 +1,11 @@
+body {
+}
+.label-input{
+     padding-top:3px
+}
+.min-label-width{
+    min-width: 110px;
+}
+.min-input{
+    min-width:50px
+}

@@ -1,0 +1,60 @@
+.resize-icon {
+    width: 38px !important;
+    height: 30px !important;
+    display: flex;
+    margin: 2px 0px 2px 0px;
+    justify-content: center;
+    align-items: center;
+    transition: width ease 0.3s;
+}
+.label-transition {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.label-visible {
+    opacity: 1;
+}
+.open-icon {
+    width: 25px;
+    height: 20px;
+    margin-bottom: 4px;
+    transition: ease 0.3s;
+}
+.closed-icon {
+    width: 25px;
+    height: 20px;
+    margin-bottom: 4px;
+    transition: all ease 0.3s;
+}
+.label-open {
+    transition: all ease 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    position: relative;
+    color: lightgray;
+}
+.label-closed {
+    position: relative;
+    font-size:0px;
+    transition: all ease 0.3s;
+}
+.button-open {
+    padding: 7px 7px 7px 7px;
+    border-radius: 50px;
+    transition: all ease 0.5s;
+}
+.button-closed {
+    padding: 7px 7px 7px 7px;
+    border-radius: 200px;
+    transition: all ease 0.5s;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :5px 5px 5px 5px;
+    margin-top: 1rem;
+}

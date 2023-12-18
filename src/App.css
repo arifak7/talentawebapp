@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -11,6 +12,24 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.content-backcolor{
+    background-color: white !important;
+}
+.content {
+    overflow: initial;
+    background-color: pink !important;
+    flex: 1;
+    overflow: auto;
+}
+.sider {
+    position: fixed;
+    z-index: 1;
+    height: 150vh,
+}
+.sidebar{
+    color: white;
 }
 
 .App-header {
@@ -35,4 +54,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.app-container {
+    display: flex;
+    height: 100vh;
+}
+.align-center-text{
+    text-align: center;
+}
+.sidebar {
+    flex: 0 0 auto;
+}
+
+.main-content {
+    flex: 1;
+    overflow: auto; /* Add this to enable scrolling in the main content area if needed */
 }

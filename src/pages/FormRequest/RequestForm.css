@@ -1,0 +1,41 @@
+.container
+{
+}
+
+.title{
+    text-align:center !important;
+}
+
+.title-form{
+
+}
+.alert-shown {
+    position: fixed;
+    top: 10px;
+    left:10%;
+    right: 10%;
+    z-index: 1000;
+    transition: all ease 0.3s
+}
+.alert-hidden {
+    position: fixed;
+    top: -50px;
+    left: 10%;
+    right: 10%;
+    z-index: 1000;
+    transition: all ease 0.3s
+}
+.form-button {
+    margin-top: 10px;
+    margin-left: 75%;
+}
+.submit-button {
+    width:100%;
+    min-width: 100px;
+}
+.border-form {
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+}

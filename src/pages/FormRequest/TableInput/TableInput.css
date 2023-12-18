@@ -1,0 +1,14 @@
+body {
+}
+
+.table-input-width{
+    width:100%;
+}
+.table-container {
+    margin-top:10px;
+    overflow-y: auto;
+}
+.table-limit {
+    border-radius: 5px;
+    border: 0.2px solid #d6d6d6;
+}

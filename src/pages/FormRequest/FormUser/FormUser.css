@@ -1,0 +1,11 @@
+body {
+}
+.top-padding-10p{
+    padding-top: 10px;
+}
+.bottom-padding-10p {
+    padding-bottom: 10px;
+}
+.form-min-width {
+    min-width: 140px
+}
